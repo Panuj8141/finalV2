@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resModal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="product-grid">
+
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <div class="modal-header" id="modalTitle">Title</div>
+          <div id="modalBody">Content goes here...</div>
+        </div>
+      </div>
+<script>
+let products=[];
+
+async function getData(productArray) {
+const response = await fetch("../products.json");
+const data = await response.json();
+products= Object.values(data);
+render(products)
+
+}
+const grid = document.querySelector('.product-grid');
+
+function render(products){
+
+    products.forEach(product=>{
+    const card = document.createElement("div");
+    card.className="product-card";
+    card.setAttribute("tabindex", "0");
+    card.setAttribute("role", "button");
+    card.setAttribute("aria-label", productName);
+    card.innerHTML=`
+          <div class="image-wrapper">
+          <img src="../${productImage}" alt="${productName}" class="product-image" />
+          </div>
+          <div class="product-info">
+            <h3>${productName}</h3>
+          </div>
+          `;
+    
+});
+}
+
+getData();
+
+
+
+</script>
+</body>
+</html>

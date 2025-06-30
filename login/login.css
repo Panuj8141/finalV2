@@ -1,0 +1,226 @@
+:root {
+    --dark-green: #2F4A39;
+    --light-cream: #F4EFDF;
+    --olive-green: #617A59;
+    --sage: #A3B49F;
+    --beige: #E9E4D4;
+    --charcoal: #1F1F1F;
+    --pale-cream: #FCFAF4;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Cinzel , 'Segoe UI', sans-serif;
+    background-color: var(--pale-cream);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .login-container {
+    background-color: var(--light-cream);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    animation: slideIn 0.8s ease-out;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    color: var(--dark-green);
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    margin-bottom: 0.5rem;
+    color: var(--olive-green);
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    padding: 0.8rem;
+    border: 1px solid var(--sage);
+    border-radius: 0.5rem;
+    background-color: var(--pale-cream);
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: var(--dark-green);
+  }
+  .password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-wrapper input {
+    flex: 1;
+    padding-right: 2.5rem;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 0.75rem;
+    cursor: pointer;
+    user-select: none;
+    font-size: 1.2rem;
+    color: var(--charcoal);
+    transition: color 0.2s;
+  }
+  
+  .toggle-password:hover {
+    color: var(--olive-green);
+  }
+  
+  
+  button {
+    width: 100%;
+    padding: 0.9rem;
+    background-color: var(--dark-green);
+    color: var(--light-cream);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--olive-green);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive */
+  @media (max-width: 480px) {
+    .login-container {
+      padding: 1.5rem;
+    }
+  
+    .login-form h2 {
+      font-size: 1.5rem;
+    }
+  }
+  .login-alert {
+    position: fixed;
+    top: 60px; /* 👈 distance from top */
+    left: 50%;
+    transform: translateX(-50%) scale(0.95); /* 👈 only X axis for horizontal centering */
+    background: var(--light-cream);
+    color: var(--dark-green);
+    padding: 20px 24px;
+    border: 2px solid var(--olive-green);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    z-index: 2000;
+    opacity: 0;
+    pointer-events: none;
+    width: 60%;
+    min-height: 80px;
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.1rem;
+    transition: all 0.4s ease;
+  }
+  
+  .login-alert.show {
+    opacity: 1;
+    transform: translateX(-50%) scale(1); /* 👈 same, no Y shifting */
+    pointer-events: auto;
+  }
+  
+  
+  /* Dismiss button */
+  .login-alert .dismiss-btn {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--dark-green);
+  }
+  
+  /* ===================== Responsive Breakpoints ===================== */
+  
+  /* Tablets / small laptops */
+  @media (max-width: 900px) {
+    .login-alert {
+      width: 70%;
+      font-size: 1rem;
+      padding: 18px 20px;
+      min-height: 90px;
+    }
+  }
+  
+  /* Regular phones */
+  @media (max-width: 600px) {
+    .login-alert {
+      width: 80%;
+      font-size: 0.95rem;
+      padding: 16px 18px;
+      min-height: 100px;
+    }
+  }
+  
+  /* Small phones */
+  @media (max-width: 400px) {
+    .login-alert {
+      width: 85%;
+      font-size: 0.9rem;
+      padding: 14px 16px;
+      min-height: 110px;
+    }
+  }
+  
+  /* Ultra small devices */
+  @media (max-width: 320px), (max-height: 400px) {
+    .login-alert {
+      width: 90%;
+      font-size: 0.85rem;
+      padding: 12px 14px;
+      min-height: 120px;
+    }
+  }
+  
+  

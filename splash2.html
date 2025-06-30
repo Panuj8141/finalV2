@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Splash Screen</title>
+  <!-- Cinzel font import -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background-color: #ffffff;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      font-family: 'Cinzel', serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .logo {
+      width: 240px; /* slightly larger for presence */
+      transform: scale(0);
+      animation: scaleIn 1.2s ease-out forwards;
+    }
+
+    @keyframes scaleIn {
+      to {
+        transform: scale(1);
+      }
+    }
+
+    .brand-name {
+      margin-top: 24px;
+      font-size: 54px;
+      font-weight: 700;
+      color: #2F4A39;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    #line1,
+    #line2{
+        margin:0px;
+    }
+    #line1{
+        /* font-size: 33px; */
+        font-weight: bold;
+    }
+    #line2{
+        font-size: 29px;
+    }
+    .fade-wrapper {
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    .fade-out {
+        opacity: 0;
+    }
+  </style>
+</head>
+<body>
+
+
+<div id="splash-wrapper" class="fade-wrapper">
+    <div class="container">
+        <!-- Cropped logo -->
+        <img src="logo/croped-logo-removebg-preview.png" alt="Logo" class="logo" />
+
+        <!-- Two lines for brand name -->
+        <div class="brand-name" id="line1"></div>
+        <div class="brand-name" id="line2"></div>
+    </div>
+</div>
+
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { getDatabase, ref, set , get , remove , update } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+import { getAuth, signInWithEmailAndPassword , onAuthStateChanged , signOut} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+
+const firebaseConfig = {
+    apiKey: "AIzaSyCzjYdi1BgNqfOZyGOpH1al1cMgEyFPZmY",
+    authDomain: "intro-1404a.firebaseapp.com",
+    databaseURL: "https://intro-1404a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "intro-1404a",
+    storageBucket: "intro-1404a.firebasestorage.app",
+    messagingSenderId: "1037606623223",
+    appId: "1:1037606623223:web:6789d47c578d55e33d80f2"
+  };
+
+  const app  = initializeApp(firebaseConfig);
+  const db = getDatabase(app);
+  const auth  = getAuth(app);
+
+  const line1Text = "Agrawal";
+  const line2Text = "Trading Co.";
+
+  const line1 = document.getElementById("line1");
+  const line2 = document.getElementById("line2");
+
+  let i = 0;
+  const delay = 90;
+
+  function typeLine1() {
+    if (i < line1Text.length) {
+      line1.textContent += line1Text.charAt(i);
+      i++;
+      setTimeout(typeLine1, delay);
+    } else {
+      // Start line 2 after line 1 finishes
+      i = 0;
+      setTimeout(typeLine2, 200); // slight pause
+    }
+  }
+
+  function typeLine2() {
+    if (i < line2Text.length) {
+      line2.textContent += line2Text.charAt(i);
+      i++;
+      setTimeout(typeLine2, delay);
+    }
+  }
+
+  // Start typing after logo animation finishes
+  setTimeout(typeLine1, 1200);
+
+setTimeout(() => {
+  const splash = document.getElementById('splash-wrapper');
+  splash.classList.add('fade-out');
+
+  // Update to match new shorter fade
+  setTimeout(() => {
+    onAuthStateChanged(auth , (user)=>{
+      if(user){
+        window.location.replace("/")
+      }else{
+        window.location.replace("/login");
+      }
+    })
+  }, 500); // match CSS transition (0.5s)
+}, 3600); // allow all animations to complete first
+</script>
+
+
+</body>
+</html>

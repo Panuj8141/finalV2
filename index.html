@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Agrawal Trading Co.</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="subpages/style.css">
+  
+</head>
+<body data-page="home">
+
+  <header>
+    <h1>Agrawal Trading Co.</h1>
+    <p class="tagline">
+      From Disposable to Decorations - India's trusted supply store.
+    </p>
+    <div class="user-icon">
+    </div>
+    <div class="user-dashboard" id="userDashboard">
+      <p>Welcome, User!</p>
+      <span class="logout">Log out</span>
+    </div>
+    
+
+  </header>
+
+  <section class="search-container">
+    <input type="text" id="searchInput" placeholder="Search products...">
+  </section>
+
+  <section class="product-section" id="productList">
+   
+  </section>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <div class="function-btn">
+        <div class="status-div">
+          <span class="edit-status">✏️ Editing</span>
+        </div>
+        <div class="buttons-div">
+          <span class="edit-btn-span"><img width="24" height="24" src="https://img.icons8.com/ios-glyphs/30/edit--v1.png" alt="edit--v1"/></span>
+          <span class="save-btn-span"><img width="24" height="24" src="https://img.icons8.com/ios-glyphs/30/save--v1.png" alt="save--v1"/></i></span>
+          <span class="close-btn">&times;</span>
+        </div>
+          
+          
+      </div>
+      
+      <div class="modal-header" id="modalTitle">
+            Title
+        </div>
+      <div id="modalBody">
+            Content goes here...
+        </div>
+    </div>
+  </div>
+
+
+  <footer>
+    &copy; 2025 Agrawal Trading Co. | All Rights Reserved
+  </footer>
+
+  <script>
+    //main script
+    const searchInput = document.getElementById('searchInput');
+    const products = document.querySelectorAll('.product-card');
+    
+    searchInput.addEventListener('input', () => {
+    const query = searchInput.value.toLowerCase();
+      products.forEach(product => {
+    const text = product.innerText.toLowerCase();
+    product.style.display = text.includes(query) ? 'block' : 'none';
+      });
+    });
+
+  </script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

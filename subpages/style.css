@@ -1,0 +1,258 @@
+:root {
+  --dark-green: #2F4A39;
+  --light-cream: #F4EFDF;
+  --olive-green: #617A59;
+  --sage: #A3B49F;
+  --beige: #E9E4D4;
+  --charcoal: #1F1F1F;
+  --pale-cream: #FCFAF4;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+.modal-content {
+  background-color: white;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-height:75dvh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.modal-header {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#modalBody{
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.close-btn {
+  /* position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #aaa; */
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+.edit-btn {
+  /* position: absolute;
+  top: 16px;
+  right: 36px; */
+  /* color: #aaa; */
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.save-btn{
+  /* position: absolute;
+  top: 16px;
+  right: 66px; */
+  /* color: #aaa; */
+  font-size: 23px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+.edit-alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.95);
+  background: var(--light-cream);
+  color: var(--dark-green);
+  padding: 20px 24px;
+  border: 2px solid var(--olive-green);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  z-index: 2000;
+  opacity: 0;
+  pointer-events: none;
+  width: 60%;
+  min-height: 80px;
+  max-width: 500px;
+  text-align: center;
+  font-size: 1.1rem;
+  transition: all 0.4s ease;
+}
+
+/* Animation trigger */
+.edit-alert.show {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  pointer-events: auto;
+}
+
+/* Dismiss button */
+.edit-alert .dismiss-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--dark-green);
+}
+
+/* ===================== Responsive Breakpoints ===================== */
+
+/* Tablets / small laptops */
+@media (max-width: 900px) {
+  .edit-alert {
+    width: 70%;
+    font-size: 1rem;
+    padding: 18px 20px;
+    min-height: 90px;
+  }
+}
+
+/* Regular phones */
+@media (max-width: 600px) {
+  .edit-alert {
+    width: 80%;
+    font-size: 0.95rem;
+    padding: 16px 18px;
+    min-height: 100px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 400px) {
+  .edit-alert {
+    width: 85%;
+    font-size: 0.9rem;
+    padding: 14px 16px;
+    min-height: 110px;
+  }
+}
+
+/* Ultra small devices */
+@media (max-width: 320px), (max-height: 400px) {
+  .edit-alert {
+    width: 90%;
+    font-size: 0.85rem;
+    padding: 12px 14px;
+    min-height: 120px;
+  }
+}
+
+span{
+  cursor:pointer;
+}
+.edit-status{
+  text-align: left;
+  display: none;
+  font-weight: bold;
+  color:rgb(231, 54, 54);
+  font-size:24px;
+}
+.save-btn-span{
+  display:none;
+}
+.cancel-btn{
+  /* position: absolute;
+  top: 16px;
+  right: 86px; */
+  /* color: #aaa; */
+  font-size: 23px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cancel-btn-span{
+  display:none;
+}
+.function-btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 12px;
+}
+.buttons-div{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  column-gap: 12px; 
+}
+.product-table{
+  border-collapse: collapse; /* Merge borders */
+  width: 100%;
+}
+th , td{
+  border: 1px solid #000; /* Add border to cells */
+  padding: 8px;
+  text-align: center;
+}
+.location{
+  margin-top:4px;
+  font-weight: bold;
+}
+.product-table input[type="text"] {
+  width: 100%;
+  padding: 6px;
+  /* border: 1px solid #bbb; */
+  box-sizing: border-box;
+  font-size: 14px; 
+}
+
+.input-cell{
+  border:none;
+  outline: none;
+  width: 100%;
+  padding: 6px;
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+  white-space: normal;
+  overflow-wrap:break-word;
+  font-size: 14px; 
+  box-shadow: 0,0,0.2 rgba(0,0,0,0.1);;
+  transition : 0.15s ease-in-out;
+
+}
+
+@media (max-width: 900px) {
+  .modal-content {
+    width: 80%;
+    max-height: 85vh;
+  }
+}
+
+/* Regular phones (max 600px) */
+@media (max-width: 600px) {
+  .modal-content {
+    width: 90%;
+    max-height: 80vh;
+  }
+}
+
+/* Small phones (like 400x545 and below) */
+@media (max-width: 400px) {
+  .modal-content {
+    width: 80%;
+    max-height: 75vh;
+  }
+}
+
+/* Ultra small screens (extra safety net) */
+@media (max-width: 320px), (max-height: 400px) {
+  .modal-content {
+    width: 70%;
+    max-height: 70vh;
+    padding: 12px;
+  }
+}

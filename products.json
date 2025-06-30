@@ -1,0 +1,2690 @@
+[
+  {
+    "name": "Refill glass",
+    "image": "product-images/Ripple glass.jpg",
+    "retail": "₹100",
+    "wholesale": "₹50",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "150ml",
+          "Retail": "₹50 [25pcs/pack]",
+          "Wholesale": "₹45 [10 pack min]"
+        },
+        {
+          "Sizes": "250ml",
+          "Retail": "₹70 [25pcs/pack]",
+          "Wholesale": "₹60 [10 pack min]"
+        }
+      ],
+      "location": "Rack No.:4 me 3rd khacha [150ml]"
+    }
+  },
+  {
+    "name": "Paper glass",
+    "image": "product-images/Paper glass.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "35ml",
+          "Retail": "₹11 [48pcs/pack]",
+          "Wholesale": "₹850-950 per box"
+        },
+        {
+          "Sizes": "45ml",
+          "Retail": "₹11 [48pcs/pack]",
+          "Wholesale": "₹850-950 per box"
+        },
+        {
+          "Sizes": "55ml",
+          "Retail": "₹11-12 [50pcs/pack]",
+          "Wholesale": "₹1000 per box"
+        },
+        {
+          "Sizes": "65ml",
+          "Retail": "₹14-15 [50pcs/pack]",
+          "Wholesale": "₹1250-1400 per box"
+        },
+        {
+          "Sizes": "70ml",
+          "Retail": "₹17 [50pcs/pack]",
+          "Wholesale": "₹1400 per box"
+        },
+        {
+          "Sizes": "80ml",
+          "Retail": "₹18-20 [50pcs/pack]",
+          "Wholesale": "₹1600-1800 per box"
+        },
+        {
+          "Sizes": "100ml",
+          "Retail": "₹30 [50pcs/pack]",
+          "Wholesale": "24 per pack|₹2200 per box"
+        },
+        {
+          "Sizes": "150ml",
+          "Retail": "₹35 [50pcs/pack]",
+          "Wholesale": "30 per pack|₹2500 per box"
+        },
+        {
+          "Sizes": "150ml printed",
+          "Retail": "₹40 [50pcs/pack]",
+          "Wholesale": "₹38 per pack"
+        },
+        {
+          "Sizes": "210ml",
+          "Retail": "₹45 [50pcs/pack]",
+          "Wholesale": "₹35-30 per pack"
+        },
+        {
+          "Sizes": "250ml",
+          "Retail": "₹50 [50pcs/pack]",
+          "Wholesale": "₹35-40 per pack"
+        }
+      ],
+      "location": "Behind Rack No-3 [35ml , 45ml , 55ml , 65ml , 70ml , 80ml]"
+    }
+  },
+  {
+    "name": "Ganna plane plate",
+    "image": "product-images/sugarecane plate.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "10 inch",
+          "Retail": "₹110 [25 pcs/pack]",
+          "Wholesale": "₹110 [25 pcs/pack]"
+        },
+        {
+          "Sizes": "11 inch",
+          "Retail": "₹120 [25 pcs/pack]",
+          "Wholesale": "₹210 [25 pcs/pack]"
+        },
+        {
+          "Sizes": "12 inch",
+          "Retail": "₹180 [25 pcs/pack]",
+          "Wholesale": "₹180 [25 pcs/pack]"
+        }
+      ],
+      "location": "Rack 1 and and 2 ke Upar (above)"
+    }
+  },
+  {
+    "name": "Ganna Khacha",
+    "image": "product-images/sugarecane 3khacha.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "10 inch 2 khacha",
+          "Retail": "₹110 [25 pcs/pack]",
+          "Wholesale": "₹110 [25 pcs/pack]"
+        },
+        {
+          "Sizes": "11 inch",
+          "Retail": "₹120 [25 pcs/pack]",
+          "Wholesale": "₹210 [25 pcs/pack]"
+        },
+        {
+          "Sizes": "12 inch",
+          "Retail": "₹180 [25 pcs/pack]",
+          "Wholesale": "₹180 [25 pcs/pack]"
+        }
+      ],
+      "location": "Rack 1 and and 2 ke Upar (above)"
+    }
+  },
+  {
+    "name": "Ganna Square 2 Khacha",
+    "image": "product-images/sugarcane square 2khacha.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹250 [50pcs.pack]",
+          "Wholesale": "₹250 [50pcs.pack]"
+        }
+      ],
+      "location": "Rack No-4 2nd khacha"
+    }
+  },
+  {
+    "name": "Makka Square",
+    "image": "product-images/makka square.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹230-250 [25pcs/pack]",
+          "Wholesale": "₹230-250 [25pcs/pack]"
+        }
+      ],
+      "location": "Rack No-3 1st khacha"
+    }
+  },
+  {
+    "name": "Makka Circle",
+    "image": "product-images/makka circle.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹230-250 [25pcs/pack]",
+          "Wholesale": "₹230-250 [25pcs/pack]"
+        }
+      ],
+      "location": "Rack No-1 and 2 above"
+    }
+  },
+  {
+    "name": "LightGreen Plane Leaves Plate",
+    "image": "product-images/lightgreen plane leaves plate.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹80 [22-24pcs/pack]",
+          "Wholesale": "₹80 [22-24pcs/pack]"
+        }
+      ],
+      "location": "Rack No-2 1st khacha"
+    }
+  },
+  {
+    "name": "14 Inch Plane Green Plate",
+    "image": "product-images/14inch plane green plate.webp",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹70 [20-22pcs/pack]",
+          "Wholesale": "₹65 [20-22pcs/pack]"
+        }
+      ],
+      "location": "Koi bhi ek Goni"
+    }
+  },
+  {
+    "name": "14 Inch lightGreen Khacha Plate",
+    "image": "product-images/14inch light green plate.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹60 [22-24pcs/pack]",
+          "Wholesale": "₹55 [22-24pcs/pack]"
+        }
+      ],
+      "location": "Koi bhi ek Goni"
+    }
+  },
+  {
+    "name": "14 Inch Dark Green khacha Plate",
+    "image": "product-images/14inch dark green plate.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹70 [22-24pcs/pack]",
+          "Wholesale": "₹65 [22-24pcs/pack]"
+        }
+      ],
+      "location": "koi bhi ek goni"
+    }
+  },
+  {
+    "name": "DarkGreen Plane Leaves Plate",
+    "image": "product-images/Darkgreen plane leaves plate.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹100-90 [14pcs/pack]",
+          "Wholesale": "₹100-90 [14pcs/pack]"
+        }
+      ],
+      "location": "Rack No-2 1st khacha and Goni"
+    }
+  },
+  {
+    "name": "13 Inch Plane Silver Plate",
+    "image": "product-images/13inch plane silver plate.webp",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹45 [20-22pcs/pack]",
+          "Wholesale": "₹40 [20-22pcs/pack]"
+        }
+      ],
+      "location": "Rack No-3 ke saamne neehce goni me"
+    }
+  },
+  {
+    "name": "T-shirt Chindi",
+    "image": "product-images/T shirt Chindi.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹80 pr KG",
+          "Wholesale": "₹80 per KG"
+        }
+      ],
+      "location": "One of the Goni"
+    }
+  },
+  {
+    "name": "Ganna Nashta Plate",
+    "image": "product-images/Sugarcane small plate.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹100 [50pcs/pack]",
+          "Wholesale": "₹100 [50pcs/pack]"
+        }
+      ],
+      "location": "Rack No-4 2nd khacha"
+    }
+  },
+  {
+    "name": "Stirrers",
+    "image": "product-images/Stirrers.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹70 per pack",
+          "Wholesale": "₹70 per pack"
+        }
+      ],
+      "location": "Rack No-4 1st khacha"
+    }
+  },
+  {
+    "name": "Wooden Spoon",
+    "image": "product-images/large wooden spoon.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "Small",
+          "Retail": "₹70 [100 pcs/pack]",
+          "Wholesale": "₹60 [100 pcs/pack]"
+        },
+        {
+          "Sizes": "large",
+          "Retail": "₹90 [100 pcs/pack]",
+          "Wholesale": "₹80 [100 pcs/pack]"
+        }
+      ],
+      "location": "Rack No-4 1st khacha"
+    }
+  },
+  {
+    "name": "Wooden Fork",
+    "image": "product-images/large Wodden Fork.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "Small",
+          "Retail": "₹70 [100 pcs/pack]",
+          "Wholesale": "₹60 [100 pcs/pack]"
+        },
+        {
+          "Sizes": "large",
+          "Retail": "₹90 [100 pcs/pack]",
+          "Wholesale": "₹80 [100 pcs/pack]"
+        }
+      ],
+      "location": "Rack No-4 1st khacha"
+    }
+  },
+  {
+    "name": "Plastic Spoon",
+    "image": "product-images/large plastic spoon.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "Small",
+          "Retail": "₹40 [100 pcs/pack]",
+          "Wholesale": "₹30 [100 pcs/pack]"
+        },
+        {
+          "Sizes": "large",
+          "Retail": "₹50 [100 pcs/pack]",
+          "Wholesale": "₹50 [100 pcs/pack]"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Plastic Fork",
+    "image": "product-images/plastic fork.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "Small",
+          "Retail": "₹60 [100 pcs/pack]",
+          "Wholesale": "₹60 [100 pcs/pack]"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Makka Bowl/Dona",
+    "image": "product-images/Makka dona.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "Small",
+          "Retail": "₹110 [50 pcs/pack]",
+          "Wholesale": "₹100 [50 pcs/pack]"
+        }
+      ],
+      "location": "Rack No-1 and 4 (both 1st khacha)"
+    }
+  },
+  {
+    "name": "Ice Cream Spoon",
+    "image": "product-images/ice-cream spoon.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "Polished",
+          "Retail": "₹30 [100 pcs/pack]",
+          "Wholesale": "25 [100 pcs/pack]"
+        },
+        {
+          "Sizes": "Unpolished",
+          "Retail": "₹90 [600 pcs/pack]",
+          "Wholesale": "₹90 [600 pcs/pack]"
+        }
+      ],
+      "location": "unPolished: Rack No-1 2nd Khacha"
+    }
+  },
+  {
+    "name": "Ice Cream Cup",
+    "image": "product-images/ice-cream cups.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹35 [50pcs/pack]",
+          "Wholesale": "₹32 [50pcs/pack]"
+        }
+      ],
+      "location": "Rack 4 3rd khacha"
+    }
+  },
+  {
+    "name": "Towel Chindi",
+    "image": "product-images/Towel Chindi.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹110 pr KG",
+          "Wholesale": "₹110 per KG"
+        }
+      ],
+      "location": "One of the Goni"
+    }
+  },
+  {
+    "name": "Packet Wooden Toothpick",
+    "image": "product-images/4 inch wooden toothpick.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹15 per pack",
+          "Wholesale": "₹15 per pack"
+        }
+      ],
+      "location": "Rack 4 1st khacha"
+    }
+  },
+  {
+    "name": "Dabbi Wooden Toothpick",
+    "image": "product-images/3 inch wooden toothpick.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹12 per dabbi",
+          "Wholesale": "₹10 per dabbi"
+        }
+      ],
+      "location": "Counter + Rack No-3 2nd khacha"
+    }
+  },
+  {
+    "name": "0 Number Silver Plate (110)",
+    "image": "product-images/0 number silver plate(2).jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹110 per pack[30pcs/pack]",
+          "Wholesale": "₹100 per pack [30pcs/pack]"
+        }
+      ],
+      "location": "Rack No-2 1st khacha left side"
+    }
+  },
+  {
+    "name": "0 Number Silver Plate (80)",
+    "image": "product-images/0 number silver plate(1).jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹80 per pack[30pcs/pack]",
+          "Wholesale": "₹75-70 per pack [30pcs/pack]"
+        }
+      ],
+      "location": "Rack No-2 1st khacha right side"
+    }
+  },
+  {
+    "name": "0 Number Silver Plate (60)",
+    "image": "product-images/0 number silver plate.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹60 per pack[30pcs/pack]",
+          "Wholesale": "₹60-50 per pack [30pcs/pack]"
+        }
+      ],
+      "location": "Rack No-2 1st khacha"
+    }
+  },
+  {
+    "name": "Table Roll",
+    "image": "product-images/table roll.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹80 per Kg",
+          "Wholesale": "₹80 per Kg"
+        }
+      ],
+      "location": "Bathroom wall ke paas ki Goni"
+    }
+  },
+  {
+    "name": "Green Garbage Bag",
+    "image": "product-images/green garbage bag.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹35 per piece",
+          "Wholesale": "₹130 per Kg"
+        }
+      ],
+      "location": "Bathroom wall ke paas ki Goni"
+    }
+  },
+  {
+    "name": "Silver Pouch(3sizes)",
+    "image": "product-images/silver pouch (3 sizes).jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "4x6",
+          "Retail": "₹40 per pack",
+          "Wholesale": "₹270 per Kg"
+        },
+        {
+          "Sizes": "5x7",
+          "Retail": "₹50 per pack",
+          "Wholesale": "₹270 per kg"
+        },
+        {
+          "Sizes": "6x8",
+          "Retail": "₹70 per pack",
+          "Wholesale": "₹270 per kg"
+        }
+      ],
+      "location": "Rack 3 ke peeche boxes ke sath mai Goni"
+    }
+  },
+  {
+    "name": "Double Side Tape (2 Sizes)",
+    "image": "product-images/double tape.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "small",
+          "Retail": "₹10 per piece",
+          "Wholesale": "₹10 per piece"
+        },
+        {
+          "Sizes": "Large",
+          "Retail": "₹20 per piece",
+          "Wholesale": "₹15-12 per piece"
+        }
+      ],
+      "location": "Large: Bathroom  ke saamne wale box mei"
+    }
+  },
+  {
+    "name": "Balloon Pump",
+    "image": "product-images/ballon pump.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹50 per piece",
+          "Wholesale": "₹40 per piece"
+        }
+      ],
+      "location": "Rack No-2 1st khacha + container box ke Baju wala Box"
+    }
+  },
+  {
+    "name": "Balloon Electric Machine (rental)",
+    "image": "product-images/balloon electric machine.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Rent",
+        "Deposit"
+      ],
+      "table_data": [
+        {
+          "Rent": "₹50-60 per day",
+          "Deposit": "₹500"
+        }
+      ],
+      "location": "Rack No-2 2nd khacha"
+    }
+  },
+  {
+    "name": "Cling (for Home use)",
+    "image": "product-images/cling.avif",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "30 Number",
+          "Retail": "₹70 per box",
+          "Wholesale": "₹70 per box"
+        },
+        {
+          "Sizes": "100 Number",
+          "Retail": "₹150 per box",
+          "Wholesale": "₹150 per box"
+        }
+      ],
+      "location": "Rack No-3 ke upar(above) + Galle ke Neeche 2nd Khacha right side"
+    }
+  },
+  {
+    "name": "Tissue Paper",
+    "image": "product-images/tissue paper.webp",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹15 per piece / 40 for 3 pieces",
+          "Wholesale": "₹300-350 per goni [30pcs]"
+        }
+      ],
+      "location": "Display + Hanuman-ji ke frame ke neeche + Ghar pe"
+    }
+  },
+  {
+    "name": "Toilet Roll",
+    "image": "product-images/toilet roll.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹180 per pack",
+          "Wholesale": "₹180 per pack"
+        }
+      ],
+      "location": "Rack No-4 ke upar (above)"
+    }
+  },
+  {
+    "name": "Snow Spray",
+    "image": "product-images/snow spray.webp",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹35 per piece",
+          "Wholesale": "₹580 per carton [24 pieces]"
+        }
+      ],
+      "location": "Rack No-4 ke upar (above) + counter ke upr"
+    }
+  },
+  {
+    "name": "Gift Paper",
+    "image": "product-images/gift paper.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹7 per piece",
+          "Wholesale": "7 per piece"
+        }
+      ],
+      "location": "Rack No-3 1st khacha"
+    }
+  },
+  {
+    "name": "Paper Latkan(Paper Strimmer Multicolour)",
+    "image": "product-images/paper latkan(paper strimmer multicolour).webp",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹40 per pack",
+          "Wholesale": "₹40 per pack"
+        }
+      ],
+      "location": "Rack No-3 1st khacha"
+    }
+  },
+  {
+    "name": "Crown",
+    "image": "product-images/queen crown.webp",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "King/Queen",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "King/Queen": "King",
+          "Retail": "",
+          "Wholesale": ""
+        },
+        {
+          "King/Queen": "Queen",
+          "Retail": "30 per piece",
+          "Wholesale": "30 per piece"
+        }
+      ],
+      "location": "Hanuman ji ka frame + counter"
+    }
+  },
+  {
+    "name": "Decoration Ribbon",
+    "image": "product-images/decoration ribbon.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹10 per piece",
+          "Wholesale": "₹10 per piece"
+        }
+      ],
+      "location": "Rack No-2 1st khacha"
+    }
+  },
+  {
+    "name": "Pataka",
+    "image": "product-images/colourful pataka.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "types",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "types": "Orange , multicolour and chamki",
+          "Retail": "₹10 per piece",
+          "Wholesale": "₹10 per piece"
+        }
+      ],
+      "location": "Rack No-4 1st khacha"
+    }
+  },
+  {
+    "name": "Caterers Menu Card",
+    "image": "product-images/blank menu card food counter.webp",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹280 per bundle",
+          "Wholesale": "₹280 per bundle"
+        }
+      ],
+      "location": "Rack No-4 1st khacha"
+    }
+  },
+  {
+    "name": "Butter Paper",
+    "image": "product-images/butter paper.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹120 per Kg",
+          "Wholesale": "₹120 per Kg"
+        }
+      ],
+      "location": "Rack No-2 1st khacha"
+    }
+  },
+  {
+    "name": "Eco Panni jhabla bag",
+    "image": "product-images/eco panni jhabla bag.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "8x10",
+          "Retail": "₹160 per Kg",
+          "Wholesale": "₹140 per Kg"
+        },
+        {
+          "Sizes": "9x13",
+          "Retail": "₹160 per Kg",
+          "Wholesale": "₹140 per Kg"
+        },
+        {
+          "Sizes": "10x14",
+          "Retail": "₹160 per Kg",
+          "Wholesale": "₹140 per Kg"
+        },
+        {
+          "Sizes": "13x16",
+          "Retail": "₹160 per Kg",
+          "Wholesale": "₹140 per Kg"
+        },
+        {
+          "Sizes": "16x20",
+          "Retail": "₹160 per Kg",
+          "Wholesale": "₹140 per Kg"
+        },
+        {
+          "Sizes": "20x26",
+          "Retail": "₹160 per Kg",
+          "Wholesale": "₹140 per Kg"
+        }
+      ],
+      "location": "Rack No-2 2nd khacha"
+    }
+  },
+  {
+    "name": "Eco Panni Milk Bags",
+    "image": "product-images/eco panni milk bags.webp",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "4x6",
+          "Retail": "₹160 per Kg",
+          "Wholesale": "₹140 per Kg"
+        },
+        {
+          "Sizes": "5x8",
+          "Retail": "₹160 per Kg",
+          "Wholesale": "₹140 per Kg"
+        },
+        {
+          "Sizes": "6x9",
+          "Retail": "₹160 per Kg",
+          "Wholesale": "₹140 per Kg"
+        },
+        {
+          "Sizes": "7x11",
+          "Retail": "₹160 per Kg",
+          "Wholesale": "₹140 per Kg"
+        },
+        {
+          "Sizes": "18x14",
+          "Retail": "₹160 per Kg",
+          "Wholesale": "₹140 per Kg"
+        }
+      ],
+      "location": "Rack No-2 2nd khacha"
+    }
+  },
+  {
+    "name": "Chemical",
+    "image": "product-images/chemical.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹20 per dabbi",
+          "Wholesale": "₹18 (min 10 pcs)"
+        }
+      ],
+      "location": "Rack No-2 ke neehce"
+    }
+  },
+  {
+    "name": "Aluminum foil",
+    "image": "product-images/aluminum foil.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "9 Number",
+          "Retail": "₹60 per box",
+          "Wholesale": "₹60 per box"
+        },
+        {
+          "Sizes": "18 Number",
+          "Retail": "₹100 per box",
+          "Wholesale": "₹100 per box"
+        },
+        {
+          "Sizes": "32 Number",
+          "Retail": "₹240 per box",
+          "Wholesale": "₹240 per box"
+        }
+      ],
+      "location": "Rack No-3 ke upar + rack number -4 ka 4th khacha"
+    }
+  },
+  {
+    "name": "Annapras banner",
+    "image": "product-images/annapras banner.jpeg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹50 per pack",
+          "Wholesale": "₹50 per pack"
+        }
+      ],
+      "location": "Rack No-3 ke samne wala bad box"
+    }
+  },
+  {
+    "name": "Annapras combo",
+    "image": "product-images/annapras combo.jpeg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹140 per pack",
+          "Wholesale": "₹140 per pack"
+        }
+      ],
+      "location": "Rack No-3 ke samne wala bad box"
+    }
+  },
+  {
+    "name": "Anniversary foil balloon Banner",
+    "image": "product-images/anniversary foil balloon.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹100 per pack",
+          "Wholesale": "₹100 per pack"
+        }
+      ],
+      "location": "Hanuman ji ke frame k eupar"
+    }
+  },
+  {
+    "name": "Baby shower banner",
+    "image": "product-images/babby shower banner.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹30 per pack",
+          "Wholesale": "₹30 per pack"
+        }
+      ],
+      "location": "Rack No-1 pe Latkaya hai"
+    }
+  },
+  {
+    "name": "Baby cartoon foil ballon",
+    "image": "product-images/baby cartoon foil ballon.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹20 per pack",
+          "Wholesale": "₹20 per pack"
+        }
+      ],
+      "location": "Display bada jaal"
+    }
+  },
+  {
+    "name": "Baby shower letter banner",
+    "image": "product-images/baby shower letter banner.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹60 per pack",
+          "Wholesale": "₹60 per pack"
+        }
+      ],
+      "location": "Container wale jaal pe ekdm upar"
+    }
+  },
+  {
+    "name": "Baby shower multicolour foil balloon banner",
+    "image": "product-images/baby shower multicolour foil balloon banner.webp",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹70 per pack",
+          "Wholesale": "₹70 per pack"
+        }
+      ],
+      "location": "Container wale jaal pe ekdm upar"
+    }
+  },
+  {
+    "name": "Balloon Glue",
+    "image": "product-images/balloon glue.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹10 per pack",
+          "Wholesale": "₹10 per pack"
+        }
+      ],
+      "location": "Galle ke upar wala drawer"
+    }
+  },
+  {
+    "name": "Bell latkan",
+    "image": "product-images/bell latkan.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹80-100 per pack",
+          "Wholesale": "₹80-100 per pack"
+        }
+      ],
+      "location": "Hanuman ji ke frame ke baju wale rack number 4 me taangni"
+    }
+  },
+  {
+    "name": "Birthday Caps",
+    "image": "product-images/birthday caps.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "Small",
+          "Retail": "₹40 per pack",
+          "Wholesale": "₹40 per pack"
+        },
+        {
+          "Sizes": "Simple Birthday",
+          "Retail": "₹50 per pack",
+          "Wholesale": "₹50 per pack"
+        },
+        {
+          "Sizes": "Chamki",
+          "Retail": "₹60 per pack",
+          "Wholesale": "₹60 per pack"
+        },
+        {
+          "Sizes": "Jhallar",
+          "Retail": "₹70 per pack",
+          "Wholesale": "₹70 per pack"
+        }
+      ],
+      "location": "Counter"
+    }
+  },
+  {
+    "name": "Birthday Curtains",
+    "image": "product-images/birthday curtains.jpeg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [],
+      "table_data": [],
+      "location": "Counter kek upar + Display"
+    }
+  },
+  {
+    "name": "Birthday foil Balloon Banner",
+    "image": "product-images/birthday foil balloon.png",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹80 per pack",
+          "Wholesale": "₹80 per pack"
+        }
+      ],
+      "location": "Continer wala jaal me upar",
+      "extra": "Five colours available as stated in photo (Blue instead of black)"
+    }
+  },
+  {
+    "name": "Birthday party popper",
+    "image": "product-images/birthday party popper.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "Rose",
+          "Retail": "₹30 per popper",
+          "Wholesale": "₹30 per popper"
+        },
+        {
+          "Sizes": "Sparkle",
+          "Retail": "₹40 per popper",
+          "Wholesale": "₹40 per popper"
+        },
+        {
+          "Sizes": "Black",
+          "Retail": "₹50 per popper",
+          "Wholesale": "₹50 per popper"
+        }
+      ],
+      "location": "Rack No-3 2nd khacha box"
+    }
+  },
+  {
+    "name": "Black garbage bag",
+    "image": "product-images/black garbage bag.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "19x21",
+          "Retail": "₹30 per pack",
+          "Wholesale": "₹30 per pack"
+        },
+        {
+          "Sizes": "30x50",
+          "Retail": "₹10 per piece /₹70 per pack",
+          "Wholesale": "₹60 per pack"
+        }
+      ],
+      "location": "Counter"
+    }
+  },
+  {
+    "name": "Bride to be letter banner",
+    "image": "product-images/bride to be letter banner.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹60 per pack",
+          "Wholesale": "₹60 per pack"
+        }
+      ],
+      "location": "Continer wala jaal me upar"
+    }
+  },
+  {
+    "name": "Butter paper dona",
+    "image": "product-images/butter paper dona.png",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹70 per pack",
+          "Wholesale": "₹60-70 per pack"
+        }
+      ],
+      "location": "Rack No-4 2nd khacha"
+    }
+  },
+  {
+    "name": "Cartoon foil balloon packet",
+    "image": "product-images/cartoon foil balloon packet.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹80 per pack",
+          "Wholesale": "₹80-70 per pack"
+        }
+      ],
+      "location": "Continer wala jaal me upar"
+    }
+  },
+  {
+    "name": "Chamki small bag",
+    "image": "product-images/chamki small bag.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹4 per pack",
+          "Wholesale": "₹4 per pack"
+        }
+      ],
+      "location": "Hanuman ji ki frame"
+    }
+  },
+  {
+    "name": "Circle tokri",
+    "image": "product-images/circle tokri.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹250-200 per pack",
+          "Wholesale": "₹200-250 per pack"
+        }
+      ],
+      "location": "Rack No-2 1st khacha plates ke sath"
+    }
+  },
+  {
+    "name": "Cling big box (for Caterers)",
+    "image": "product-images/cling big box.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹300 per box",
+          "Wholesale": "₹300 per box"
+        }
+      ],
+      "location": "Rack No-4 ke saamne neeche ek box hai chota uske andar"
+    }
+  },
+  {
+    "name": "Cloth bags",
+    "image": "product-images/cloth bags.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹20 per bag",
+          "Wholesale": "₹20 per bag"
+        }
+      ],
+      "location": "Hanuman ji ki frame ke neehce wale box me"
+    }
+  },
+  {
+    "name": "Colourful tape",
+    "image": "product-images/colourful tape.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹10 per piece",
+          "Wholesale": "₹10 per piece"
+        }
+      ],
+      "location": "Hanuman ji ki frame"
+    }
+  },
+  {
+    "name": "Double silver dona",
+    "image": "product-images/double silver dona.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "S1",
+          "Retail": "₹15 per pack",
+          "Wholesale": "₹10 per pack"
+        },
+        {
+          "Sizes": "S2",
+          "Retail": "₹20 per pack",
+          "Wholesale": "₹17 per pack"
+        },
+        {
+          "Sizes": "S3",
+          "Retail": "₹30 per pack",
+          "Wholesale": "₹25 per pack"
+        }
+      ],
+      "location": "Rack No-1 1st khacha"
+    }
+  },
+  {
+    "name": "Envolope",
+    "image": "product-images/envolope.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹5 per piece",
+          "Wholesale": "₹5 per piece"
+        }
+      ],
+      "location": "Counter"
+    }
+  },
+  {
+    "name": "Flower bags",
+    "image": "product-images/flower bags.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "S1",
+          "Retail": "₹15 per bag",
+          "Wholesale": "₹15 per bag"
+        },
+        {
+          "Sizes": "S2",
+          "Retail": "₹20 per bag",
+          "Wholesale": "₹20 per pack"
+        },
+        {
+          "Sizes": "S3",
+          "Retail": "₹25 per bag",
+          "Wholesale": "₹25 per bag"
+        }
+      ],
+      "location": "Hanumna ji ke frame ke neehc wala box"
+    }
+  },
+  {
+    "name": "Flower haldi banner",
+    "image": "product-images/flower haldi banner.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹180 per piece",
+          "Wholesale": "₹180 per piece"
+        }
+      ],
+      "location": "Display + chota wala jaal"
+    }
+  },
+  {
+    "name": "Ganna dona",
+    "image": "product-images/ganna dona.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹90-80 per piece",
+          "Wholesale": "₹80 per piece"
+        }
+      ],
+      "location": "Rack No-4 2nd khacha"
+    }
+  },
+  {
+    "name": "Goni hand bag",
+    "image": "product-images/goni hand bag.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "S1",
+          "Retail": "₹5 per bag",
+          "Wholesale": "₹5 per bag"
+        },
+        {
+          "Sizes": "S2",
+          "Retail": "₹10 per bag",
+          "Wholesale": "₹10 per pack"
+        }
+      ],
+      "location": "Hanumna ji ke frame ke neehe wala box"
+    }
+  },
+  {
+    "name": "Goni large bag",
+    "image": "product-images/goni large bag.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "S1",
+          "Retail": "₹15 per bag",
+          "Wholesale": "₹15 per bag"
+        },
+        {
+          "Sizes": "S2",
+          "Retail": "₹20 per bag",
+          "Wholesale": "₹20 per bag"
+        },
+        {
+          "Sizes": "S3",
+          "Retail": "₹25 per bag",
+          "Wholesale": "₹25-20 per bag"
+        }
+      ],
+      "location": "Hanumna ji ke frame ke neehe wala box"
+    }
+  },
+  {
+    "name": "Green grass",
+    "image": "product-images/green grass.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹100 per piece",
+          "Wholesale": "₹100-90 per piece"
+        }
+      ],
+      "location": "Display me glass ka box"
+    }
+  },
+  {
+    "name": "Haldi big banner",
+    "image": "product-images/haldi big banner.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹180 per piece",
+          "Wholesale": "₹180 per piece"
+        }
+      ],
+      "location": "Display ka chota wala jaal ke upar"
+    }
+  },
+  {
+    "name": "Haldi combo",
+    "image": "product-images/haldi combo.webp",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹240 per piece",
+          "Wholesale": "₹240 per piece"
+        }
+      ],
+      "location": "Rack No-3 ke saamne wale box ke andar + Display"
+    }
+  },
+  {
+    "name": "Haldi foil balloon banner",
+    "image": "product-images/haldi foil gold balloon banner.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹70 per piece",
+          "Wholesale": "₹70-60 per piece"
+        }
+      ],
+      "location": "Container ke box ke side wala jaal"
+    }
+  },
+  {
+    "name": "Haldi kite",
+    "image": "product-images/haldi kite.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹100 per piece",
+          "Wholesale": "₹100 per piece"
+        }
+      ],
+      "location": "Display + hanuman ji ke frame ke baju wale rack me tanga hua h"
+    }
+  },
+  {
+    "name": "Happy aniversary banner",
+    "image": "product-images/happy aniversary banner.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹50 per piece",
+          "Wholesale": "₹50 per piece"
+        }
+      ],
+      "location": "Rack No-4 1st khacha"
+    }
+  },
+  {
+    "name": "Happy anniversary combo",
+    "image": "product-images/happy anniversary combo.jpeg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹200-240 per piece",
+          "Wholesale": "₹200-240 per piece"
+        }
+      ],
+      "location": "Rack No-3  ke saamne wala box ke andar"
+    }
+  },
+  {
+    "name": "Happy anniversary letter banner",
+    "image": "product-images/happy anniversary letter banner.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹70 per piece",
+          "Wholesale": "₹70 per piece"
+        }
+      ],
+      "location": "Container ke box ke baju wale jaal ke upar"
+    }
+  },
+  {
+    "name": "Happy birthday banner",
+    "image": "product-images/happy birthday banner.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Type",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Type": "Plane",
+          "Retail": "₹40 per pack",
+          "Wholesale": "₹40 per pack"
+        },
+        {
+          "Type": "Radiant",
+          "Retail": "₹50 per pack",
+          "Wholesale": "₹50 per pack"
+        }
+      ],
+      "location": "Rack No-4 1st khacha"
+    }
+  },
+  {
+    "name": "Happy birthday big balloon",
+    "image": "product-images/happy birthday big balloon.jpeg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹20 per piece",
+          "Wholesale": "₹15 per piece [5 piece]"
+        }
+      ],
+      "location": "Rack No-3 ke samne wala box"
+    }
+  },
+  {
+    "name": "Happy birthday combo",
+    "image": "product-images/happy birthday combo.png",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹240 per piece",
+          "Wholesale": "₹240-220 per piece"
+        }
+      ],
+      "location": "Rack No-3 ke samne wala box"
+    }
+  },
+  {
+    "name": "Happy birthday letter banner",
+    "image": "product-images/happy birthday letter banner.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹70-60 per piece",
+          "Wholesale": "₹70-55 per piece"
+        }
+      ],
+      "location": "Container ke box ke baju wala jaal + Rack No-3 ke samne box"
+    }
+  },
+  {
+    "name": "Happy birthday light",
+    "image": "product-images/happy birthday light.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Rent",
+        "Deposit"
+      ],
+      "table_data": [
+        {
+          "Rent": "₹100-150 per day",
+          "Deposit": "₹1000"
+        }
+      ],
+      "location": "Rack No-3 1st khacha glass ke upar"
+    }
+  },
+  {
+    "name": "Lamba pink balloon",
+    "image": "product-images/lamba pink balloon.jpeg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹2 per piece",
+          "Wholesale": "₹2 per piece"
+        }
+      ],
+      "location": "Rack No-1"
+    }
+  },
+  {
+    "name": "Letter foil balloon",
+    "image": "product-images/letter foil balloon.jpeg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "Small",
+          "Retail": "₹15 per piece",
+          "Wholesale": "₹12 per piece"
+        },
+        {
+          "Sizes": "Big",
+          "Retail": "₹35 per piece",
+          "Wholesale": "₹30-28 per piece"
+        }
+      ],
+      "location": "Hanuman ji ke frame ke neeche + Container wala jaal + Rack No-3 ke saamne wala box"
+    }
+  },
+  {
+    "name": "Light tiara",
+    "image": "product-images/light tiara.webp",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹60 per piece",
+          "Wholesale": "₹60 per piece"
+        }
+      ],
+      "location": "Counter ke upar wala Dsiplay"
+    }
+  },
+  {
+    "name": "Number cake topper",
+    "image": "product-images/number cake topper.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹20 per piece",
+          "Wholesale": "₹15-18 per piece"
+        }
+      ],
+      "location": "Rack No-3  2nd khacha me boxes"
+    }
+  },
+  {
+    "name": "Number foil balloons",
+    "image": "product-images/number foil balloons.jpeg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "Small",
+          "Retail": "₹15 per piece",
+          "Wholesale": "₹12 per piece"
+        },
+        {
+          "Sizes": "Big",
+          "Retail": "₹35 per piece",
+          "Wholesale": "₹30-28 per piece"
+        }
+      ],
+      "location": "Hanuman ji ke frame ke neeche + Container wala jaal + Rack No-3 ke saamne wala box",
+      "extra": "Gold and Silver options are also available"
+    }
+  },
+  {
+    "name": "Paper bags",
+    "image": "product-images/paper bags.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Colours",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Colours": "White",
+          "Retail": "₹110 per Kg",
+          "Wholesale": "₹110 per Kg"
+        },
+        {
+          "Colours": "Brown",
+          "Retail": "₹90 per Kg",
+          "Wholesale": "₹90 per Kg"
+        }
+      ],
+      "location": "Rack No-3 2nd khacha"
+    }
+  },
+  {
+    "name": "Paper nashta plates",
+    "image": "product-images/paper nashta plates.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "S1",
+          "Retail": "₹10 per pack[20-22pcs]",
+          "Wholesale": "₹7-8 per pack[20-22pcs]"
+        },
+        {
+          "Sizes": "S2",
+          "Retail": "₹15 per pack[20-22 pcs]",
+          "Wholesale": "₹10-12 per pack[20-22 pcs]"
+        },
+        {
+          "Sizes": "S3",
+          "Retail": "₹25 per pack[20-22 pcs]",
+          "Wholesale": "₹18-20 per pack[20-22 pcs]"
+        }
+      ],
+      "location": "Rack No-1 2nd khacha + Container ke boxes ke baju me goni [bathroom oposite side]"
+    }
+  },
+  {
+    "name": "Red ball latkan",
+    "image": "product-images/red ball latkan.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹50 per pack",
+          "Wholesale": "₹50 per piece"
+        }
+      ],
+      "location": "Rack No-2 1st khacha"
+    }
+  },
+  {
+    "name": "Rubber band",
+    "image": "product-images/rubber band.webp",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹60 100 grams",
+          "Wholesale": "₹60  100 grams"
+        }
+      ],
+      "location": "Counter"
+    }
+  },
+  {
+    "name": "Rubber hand gloves",
+    "image": "product-images/rubber hand gloves.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹100 per bundle [10 pcs]",
+          "Wholesale": "₹100  per bundle [10 pcs]"
+        }
+      ],
+      "location": "Rack No-4 ke saaamne neeche goni"
+    }
+  },
+  {
+    "name": "Shallow ganna bowl/dona",
+    "image": "product-images/shallow ganna bowl+dona.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "Small",
+          "Retail": "₹60 per pack",
+          "Wholesale": "₹60-55 per pack"
+        },
+        {
+          "Sizes": "Big",
+          "Retail": "₹70 per pack",
+          "Wholesale": "₹70-65 per pack"
+        }
+      ],
+      "location": "rack No-4 2nd khacha"
+    }
+  },
+  {
+    "name": "Shub Labh",
+    "image": "product-images/shub labh.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹10 per pack",
+          "Wholesale": "₹4  per pack"
+        }
+      ],
+      "location": "Home + Rack No-3 ke saamne wala box"
+    }
+  },
+  {
+    "name": "Silver container",
+    "image": "product-images/silver container.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "250ml",
+          "Retail": "₹3 per piece",
+          "Wholesale": "₹180 per pack[100pcs]"
+        },
+        {
+          "Sizes": "450ml",
+          "Retail": "₹4 per piece",
+          "Wholesale": "₹230 per pack[100 pcs]"
+        },
+        {
+          "Sizes": "600ml Round",
+          "Retail": "₹5 per piece",
+          "Wholesale": "₹270 per pack[100 pcs]"
+        }
+      ],
+      "location": "Container:Rack No-2 ke baju me jaal ke peeche boxes"
+    }
+  },
+  {
+    "name": "Silver khacha plate 50",
+    "image": "product-images/silver khacha plate 50.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹50 per pack [20-22 pcs]",
+          "Wholesale": "₹45  per pack [20-22 pcs]"
+        }
+      ],
+      "location": "One of the goni"
+    }
+  },
+  {
+    "name": "Silver khacha plate 60",
+    "image": "product-images/silver khacha plate 60.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹60 per pack [20-22 pcs]",
+          "Wholesale": "₹55  per pack [20-22 pcs]"
+        }
+      ],
+      "location": "One of the goni"
+    }
+  },
+  {
+    "name": "Silver khacha plate 90",
+    "image": "product-images/silver khacha plate 90.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹90 per pack [20-22 pcs]",
+          "Wholesale": "₹75-80  per pack [20-22 pcs]"
+        }
+      ],
+      "location": "One of the goni"
+    }
+  },
+  {
+    "name": "Silver nashta plate",
+    "image": "product-images/silver nashta plate.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "5 no.",
+          "Retail": "₹22 per pack [30 pcs]",
+          "Wholesale": "₹20 per pack[30pcs]"
+        },
+        {
+          "Sizes": "4 No.",
+          "Retail": "₹30 per pack [30 pcs]",
+          "Wholesale": "₹30 per pack[30 pcs]"
+        },
+        {
+          "Sizes": "3 No.",
+          "Retail": "₹45 per pack[30 pcs]",
+          "Wholesale": "₹40 per pack[30 pcs]"
+        }
+      ],
+      "location": "5 no , 4 no , 3 no , 2 no ,Rack No-1 3rd khacha"
+    }
+  },
+  {
+    "name": "Single silver dona",
+    "image": "product-images/single silver dona.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "S1",
+          "Retail": "₹9-8 per pack[20 pcs]",
+          "Wholesale": "₹7 per pack[20 pcs]"
+        },
+        {
+          "Sizes": "S2",
+          "Retail": "₹10 per pack [20 pcs]",
+          "Wholesale": "₹7-8 per pack [20 pcs]"
+        },
+        {
+          "Sizes": "S3",
+          "Retail": "₹25 per pack[20 pcs]",
+          "Wholesale": "₹18-20 per pack[20 pcs]"
+        }
+      ],
+      "location": "Rack No-1 1st khacha"
+    }
+  },
+  {
+    "name": "Slashes",
+    "image": "product-images/slashes.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹30 per piece",
+          "Wholesale": "₹30  per piece"
+        }
+      ],
+      "location": "Rack 1 and 4 pe taangni and jaal pe taangni",
+      "extra": "Bride to be , Groom to be , King to be , Queen to be , Happy birthday , Birthday boy , Birthday girl , Prince , princess."
+    }
+  },
+  {
+    "name": "Square tokri",
+    "image": "product-images/square tokri.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹150 per piece",
+          "Wholesale": "₹150  per piece"
+        }
+      ],
+      "location": "rack no-1 2nd khacha"
+    }
+  },
+  {
+    "name": "Star foil balloon",
+    "image": "product-images/star foil balloon.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹20 per piece",
+          "Wholesale": "₹20  per piece"
+        }
+      ],
+      "location": "Counter ke upar taangni",
+      "extra": "Gold and Silver optoin"
+    }
+  },
+  {
+    "name": "Box birthday curtain",
+    "image": "product-images/thick birthday curtain.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹60-70 per piece",
+          "Wholesale": "₹60-70  per piece"
+        }
+      ],
+      "location": "Counter ke upar taangni/p>",
+      "extra": "Gold , Silver and pink optoins"
+    }
+  },
+  {
+    "name": "Transparent balloon",
+    "image": "product-images/transparent balloon.jpeg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹40 per pack[5 pcs]",
+          "Wholesale": "₹40  per pack[5 pcs]"
+        }
+      ],
+      "location": "Rack No-4 me taangni"
+    }
+  },
+  {
+    "name": "Transparent tape",
+    "image": "product-images/transparent tape.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "Small",
+          "Retail": "₹5 per Piece",
+          "Wholesale": "₹5 per piece"
+        },
+        {
+          "Sizes": "Big",
+          "Retail": "₹30 per piece",
+          "Wholesale": "₹25 per piece"
+        }
+      ],
+      "location": "Counter + Rack No-3 2nd khacha"
+    }
+  },
+  {
+    "name": "Welcome foil balloon banner",
+    "image": "product-images/welcome foil balloon.jpeg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹70-60 per pack",
+          "Wholesale": "₹70-60  per pack"
+        }
+      ],
+      "location": "Hanuman ji ke frame ke upar"
+    }
+  },
+  {
+    "name": "Without knife Balloon Pack",
+    "image": "product-images/without knife.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹50 per pack",
+          "Wholesale": "₹50  per pack"
+        }
+      ],
+      "location": "Rack no-3 ke saamne wala box"
+    }
+  },
+  {
+    "name": "Zip lock plastic bag",
+    "image": "product-images/zip lock plastic bag.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Sizes",
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Sizes": "S1",
+          "Retail": "₹50 per pack[100 pcs]",
+          "Wholesale": "₹50 per pack[100 pcs]"
+        },
+        {
+          "Sizes": "S2",
+          "Retail": "₹70 per pack [100 pcs]",
+          "Wholesale": "₹70 per pack [100 pcs]"
+        },
+        {
+          "Sizes": "S3",
+          "Retail": "₹90 per pack[100 pcs]",
+          "Wholesale": "₹90 per pack[100 pcs]"
+        },
+        {
+          "Sizes": "S5",
+          "Retail": "₹180 per pack[100 pcs]",
+          "Wholesale": "₹180 per pack[100 pcs]"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ice cream plastic bowl",
+    "image": "product-images/ice-cream plastic bowl.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹55-60 per pack[80 pcs]",
+          "Wholesale": "₹55-60  per pack[80pcs]"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ice cream plastic spoon",
+    "image": "product-images/ice-cream plastic spoon.jpg",
+    "retail": "₹120",
+    "wholesale": "₹90",
+    "description": {
+      "table_headers": [
+        "Retail",
+        "Wholesale"
+      ],
+      "table_data": [
+        {
+          "Retail": "₹30 per pack[90 pcs]",
+          "Wholesale": "₹30  per pack[90pcs]"
+        }
+      ]
+    }
+  }
+]

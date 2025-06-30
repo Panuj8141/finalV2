@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./subpages/table.css">
+</head>
+<body>
+    <div class="grid"></div>
+    <!-- <table>
+        <tr></tr>
+    </table> -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <div class="modal-header" id="modalTitle">Title</div>
+          <div id="modalBody">Content goes here...</div>
+        </div>
+      </div>
+      
+<script>
+let products = [];
+const pathOfJsonFile = "/products.json";
+
+
+async function getData(path){
+  const rep = await fetch(path);
+  const data = await rep.json();
+  data.forEach(product=>{
+    products=Object.values(data);
+  });
+}
+
+const gridEl = document.querySelector(".grid");
+
+function displayTable(products){
+    gridEl.innerHTML='';
+
+
+
+
+    products.forEach(product=>{
+        const card = document.createElement("div");
+        card.className  = 'product-card';
+        card.className="product-card";
+        card.setAttribute("tabindex", "0");
+        card.setAttribute("role", "button");
+        card.innerHTML=`<div>
+            ${product.name}
+            <div/>`
+        card.addEventListener('click' , ()=>{
+        let table =`<table class="product-table">
+        <tr>`;
+        const procName = product.name;
+        const procDesc = product.description;
+        const tableHead = procDesc.table_headers;
+        const tableData = procDesc.table_data;
+        const location = procDesc.location;
+        const nameRow = `<th style="text-align:center" colspan="3">${procName}</th></tr><tr>`;
+        table+=nameRow;
+        tableHead.forEach(head=>{
+            const th=`<th>${head}</th>`;
+            table+=th;
+            
+        });
+        
+        tableData.forEach(row=>{
+            if(tableHead[0] == "Sizes"){
+                const rowWithSize = `</tr><tr><td>${row.Sizes}</td><td>${row.Retail}</td><td>${row.Wholesale}</td>`;
+                table+=rowWithSize;
+            }else{
+                const rowWithoutSize =`</tr><tr><td>${row.Retail}</td><td>${row.Wholesale}</td>`;
+                table+=rowWithoutSize;
+            }
+        })
+        const locationRow = `</tr><tr><td colspan="3" style="text-align:left"><strong>Location:</strong> ${location}</td>`;
+        table+=locationRow;
+
+        if(procDesc.extra){
+            const extraRow = `</tr><tr><td colspan="3" style="text-align:left"><strong>Info:</strong> ${procDesc.extra}</td>`;
+            table+=extraRow;
+        }
+        
+
+        table+=`</tr></table>`;
+        document.querySelector("#modalBody").innerHTML= table;
+        document.documentElement.classList.add('modal-open');
+        document.body.classList.add('model-open');
+        document.querySelector('.modal').style.display="block";
+        })
+        gridEl.append(card);
+    });
+    // products.forEach(product=>{
+    //     let table =`<table class="product-table">
+    //     <tr>`;
+    //     const procName = product.name;
+    //     const procDesc = product.description;
+    //     const tableHead = procDesc.table_headers;
+    //     const tableData = procDesc.table_data;
+    //     const location = procDesc.location;
+    //     const nameRow = `<th style="text-align:center" colspan="3">${procName}</th></tr><tr>`;
+    //     table+=nameRow;
+    //     tableHead.forEach(head=>{
+    //         const th=`<th>${head}</th>`;
+    //         table+=th;
+            
+    //     });
+        
+    //     tableData.forEach(row=>{
+    //         if(tableHead[0] == "Sizes"){
+    //             const rowWithSize = `</tr><tr><td>${row.Sizes}</td><td>${row.Retail}</td><td>${row.Wholesale}</td>`;
+    //             table+=rowWithSize;
+    //         }else{
+    //             const rowWithoutSize =`</tr><tr><td>${row.Retail}</td><td>${row.Wholesale}</td>`;
+    //             table+=rowWithoutSize;
+    //         }
+    //     })
+    //     const locationRow = `</tr><tr><td colspan="3" style="text-align:left"><strong>Location:</strong> ${location}</td>`;
+    //     table+=locationRow;
+
+    //     if(procDesc.extra){
+    //         const extraRow = `</tr><tr><td colspan="3" style="text-align:left"><strong>Info:</strong> ${procDesc.extra}</td>`;
+    //         table+=extraRow;
+    //     }
+        
+
+    //     table+=`</tr></table>`;
+    //     gridEl.innerHTML+=table;
+    // });
+    
+    
+}
+function closeModal(){
+    document.querySelector('.modal').style.display="none";
+    document.body.classList.remove('model-open');
+    document.documentElement.classList.remove('modal-open');
+}
+document.querySelector('.close-btn').addEventListener('click' , closeModal);
+async function loader(){
+    await getData("../products.json");
+    await displayTable(products);
+}
+loader();
+    </script>
+</body>
+</html>

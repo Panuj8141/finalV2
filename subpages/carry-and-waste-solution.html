@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Niche - Agrawal Trading Co.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="page.css">
+
+</head>
+<body data-page="carry-and-waste-solution">
+
+  <header>
+    <h1>Carry& Waste Solution</h1>
+    <p>Eco and utility bags, garbage liners, and wraps — for smart storage and clean disposal.</p>
+    <div class="user-icon">
+    </div>
+    <div class="user-dashboard" id="userDashboard">
+      <p>Welcome, User!</p>
+      <span class="logout">Log out</span>
+    </div>
+  </header>
+  <section class="search-container">
+    <input type="text" id="searchInput" placeholder="Search products...">
+  </section>
+  <main>
+    <div class="product-grid">
+      
+      <!-- Add more product cards as needed -->
+    </div>
+  </main>
+
+  <div class="edit-alert" id="editAlert">
+    <p class="message">
+      ✏️ You are now in Edit Mode. Changes won’t be saved until you click ‘Save’.
+    </p>
+    <span class="dismiss-btn" onclick="document.getElementById('editAlert').classList.remove('show')">✖</span>
+  </div>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <div class="function-btn">
+        <div class="status-div">
+          <span class="edit-status">✏️ Editing</span>
+        </div>
+        <div class="buttons-div">
+          <span class="edit-btn-span"><img width="24" height="24" src="https://img.icons8.com/ios-glyphs/30/edit--v1.png" alt="edit--v1"/></span>
+          <span class="save-btn-span"><img width="24" height="24" src="https://img.icons8.com/ios-glyphs/30/save--v1.png" alt="save--v1"/></i></span>
+          <span class="close-btn">&times;</span>
+        </div>
+          
+          
+      </div>
+      
+      <div class="modal-header" id="modalTitle">
+            Title
+        </div>
+      <div id="modalBody">
+            Content goes here...
+        </div>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Agrawal Trading Co. All rights reserved.
+  </footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>

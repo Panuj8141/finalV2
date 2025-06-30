@@ -64,3 +64,9 @@ window.onload=checkForLogin();
     e.preventDefault();
     loginAdmin();
   })
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(() => console.log('Service Worker Registered'))
+      .catch((error) => console.error('Service Worker registration failed:', error));
+  }

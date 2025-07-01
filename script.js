@@ -20,7 +20,7 @@ const firebaseConfig = {
         signOut(auth).
         then(()=>{
             console.log("User logged out");
-            window.location.replace("/login");
+            window.location.replace("./login");
         }).
         catch((error)=>{
             console.log("Signout error: " , error);

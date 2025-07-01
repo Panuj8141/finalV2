@@ -34,7 +34,7 @@ function checkForLogin(){
             document.querySelector('#userDashboard > p').textContent=`Welcome ${user.email}`;
         }else{
             
-            window.location.replace("finalV2/login");
+            window.location.replace("login/index.html");
         }
       });
 }

@@ -107,7 +107,7 @@
       width: 35px;
       height: 35px;
       border-radius: 50%;
-      background-image: url("/logo/profileIcon.png");
+      background-image: url("profileIcon.png");
       background-size: cover;
       background-position: center;
       position: absolute;

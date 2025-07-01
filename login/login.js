@@ -38,7 +38,7 @@ const firebaseConfig = {
       }
     })
   }
-window.onload=checkForLogin();
+window.onload=checkForLogin;
 
   async function loginAdmin(){
     const email = emailEl.value;

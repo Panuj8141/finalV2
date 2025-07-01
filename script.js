@@ -20,7 +20,7 @@ const firebaseConfig = {
         signOut(auth).
         then(()=>{
             console.log("User logged out");
-            window.location.replace("/login");
+            window.location.replace("finalV2/login");
         }).
         catch((error)=>{
             console.log("Signout error: " , error);
@@ -34,7 +34,7 @@ function checkForLogin(){
             document.querySelector('#userDashboard > p').textContent=`Welcome ${user.email}`;
         }else{
             
-            window.location.replace("/login");
+            window.location.replace("finalV2/login");
         }
       });
 }

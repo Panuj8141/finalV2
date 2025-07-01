@@ -105,54 +105,6 @@ export function searchInput(array, query) {
   }
 }
 
-// export async function searchForHome(query){
-//   const lowerQuery = query.trim().toLowerCase();
-//   const dataRef = ref(db , 'products');
-//   const snapshot = await get(dataRef);
-
-//     if(snapshot.exists()){
-//       data = snapshot.val();
-//     }
-
-//   const productsSource = data;
-  
-//   if(!lowerQuery){
-//     console.log("no search query");
-//     return;
-//   }
-//   const matched =[];
-//   for(const id in productsSource){
-//     const searchObject = productsSource[id];
-//     const searchName = searchObject.name.toLowerCase();
-//     console.log(searchName);
-
-//     if(searchName.includes(lowerQuery)){
-//       matched.push(searchObject);
-//     } 
-//   }
-//   if(matched.length === 0){
-//     const notFoundCard = document.createElement("div");
-//     notFoundCard.classList.add("not-found-card");
-
-//     const message = document.createElement("h3");
-//     message.classList.add("not-found-message");
-//     message.textContent = "Sorry, no products found";
-
-//     const img = document.createElement("img");
-//     img.classList.add("product-not-found-image");
-//     img.src = "/images/proc404.png";
-//     img.alt = "product-not-found-image";
-
-//     notFoundCard.appendChild(img);
-//     notFoundCard.appendChild(message);
-
-//     document.querySelector(".product-section").appendChild(notFoundCard);
-//   }else{
-//     console.log(matched);
-//   }
-// }
-
-
 
 //for geting the original data from the database to compare for tracking the changes
 
@@ -342,6 +294,22 @@ function closeModal(){
       productGrid.innerHTML="";
     }
 
+    // debugging
+    const renderedProductIds = new Set();
+    for (const productId in filteredProducts) {
+      if (renderedProductIds.has(productId)) {
+        console.warn(`Duplicate detected: Product with ID ${productId} is being rendered more than once.`);
+        continue; // Skip rendering this duplicate
+      }
+      renderedProductIds.add(productId);
+    
+      const product = filteredProducts[productId];
+    
+      // ...rest of your rendering logic
+    }
+    
+    
+    //debuging 
     
     for(const productId in filteredProducts){
       // console.log(filteredProducts[productId]);

@@ -20,7 +20,7 @@ const firebaseConfig = {
         signOut(auth).
         then(()=>{
             console.log("User logged out");
-            window.location.replace("/finalV2/login/");
+            window.location.replace("https://panuj8141.github.io/finalV2/login/");
         }).
         catch((error)=>{
             console.log("Signout error: " , error);

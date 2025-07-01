@@ -349,7 +349,7 @@ function closeModal(){
       
       
       const img = document.createElement("img");
-      const src = `../${product.image}`;
+      const src = isHomePage ? product.image : `../${product.image}`;
       img.src=src;
       img.alt=productId;
       img.classList.add("product-image");

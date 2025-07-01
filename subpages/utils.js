@@ -50,6 +50,14 @@ export async function getDataFromDatabase(selectedArray){
           matchedProducts[key]=value;
         }
       }
+      //debugg placde
+      const productIds = Object.keys(matchedProducts);
+      const duplicates = productIds.filter((id, index) => productIds.indexOf(id) !== index);
+
+      if (duplicates.length > 0) {
+        console.warn("Duplicate product IDs in matchedProducts:", duplicates);
+      }
+      //debug places
       renderProductsCard(matchedProducts)
       console.log(matchedProducts); 
     }

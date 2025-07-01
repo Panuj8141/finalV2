@@ -66,7 +66,7 @@ window.onload=checkForLogin;
   })
 
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('https://panuj8141.github.io/finalV2/service-worker.js')
+    navigator.serviceWorker.register('../service-worker.js')
       .then(() => console.log('Service Worker Registered'))
       .catch((error) => console.error('Service Worker registration failed:', error));
   }

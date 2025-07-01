@@ -46,7 +46,7 @@ window.onload=checkForLogin();
     if(email && password){
         signInWithEmailAndPassword(auth , email , password).
             then((userCredentials)=>{
-                window.location.replace("/finalV2/index.html");
+                window.location.replace("../index.html");
                 
             }).
             catch((error)=>{                

@@ -37,6 +37,7 @@ const firebaseConfig = {
 export async function getDataFromDatabase(selectedArray){
   const dataRef = ref(db , 'products');
   const snapshot = await get(dataRef);
+  let count = 0;
   try{
     if(snapshot.exists()){
       data = snapshot.val();
@@ -48,6 +49,7 @@ export async function getDataFromDatabase(selectedArray){
       for( const [key , value ] of Object.entries(data)){
         if(selectedArray.includes(value.name)){
           matchedProducts[key]=value;
+          count++;
         }
       }
       //debugg placde
@@ -64,7 +66,8 @@ export async function getDataFromDatabase(selectedArray){
   }catch(error){
     console.log(error);
   }
-  console.log("database" , matchedProducts);
+  console.log("database" , matchedProducts  , count);
+  
 }
 
 export function searchInput(array, query) {

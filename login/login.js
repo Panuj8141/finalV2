@@ -34,7 +34,7 @@ const firebaseConfig = {
   function checkForLogin(){
     onAuthStateChanged(auth , (user)=>{
       if(user){
-        window.location.replace("finalV2/");
+        window.location.replace("../index.html");
       }
     })
   }

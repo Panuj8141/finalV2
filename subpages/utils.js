@@ -40,6 +40,10 @@ export async function getDataFromDatabase(selectedArray){
   try{
     if(snapshot.exists()){
       data = snapshot.val();
+
+      for( const key in matchedProducts){
+        delete matchedProducts[key];
+      }
       
       for( const [key , value ] of Object.entries(data)){
         if(selectedArray.includes(value.name)){

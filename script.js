@@ -151,7 +151,7 @@ async function searchFunction(query){
         message.textContent="Sorry , no products found";
         const img = document.createElement("img");
         img.classList.add("product-not-found-image");
-        img.src="images/proc404.png";
+        img.src="https://panuj8141.github.io/finalV2/images/proc404.png";
         img.alt="product-not-found-image";
         notFoundCard.appendChild(img);
         notFoundCard.appendChild(message);

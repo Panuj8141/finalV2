@@ -44,10 +44,9 @@ export async function getDataFromDatabase(selectedArray){
       for( const [key , value ] of Object.entries(data)){
         if(selectedArray.includes(value.name)){
           matchedProducts[key]=value;
-          renderProductsCard(matchedProducts)
-
         }
       }
+      renderProductsCard(matchedProducts)
       console.log(matchedProducts); 
     }
   }catch(error){

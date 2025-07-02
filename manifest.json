@@ -3,7 +3,7 @@
     "short_name": "Agrawal Trading Co.",
     "start_url": "splash2.html",
     "display": "standalone",
-    "background_color": "#ffffff",
+    "background_color": "#F4EFDF",
     "theme_color": "#F4EFDF",
     "description": "Official Progressive Web App of Agrawal Trading Co.",
     "icons": [

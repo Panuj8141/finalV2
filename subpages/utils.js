@@ -304,6 +304,9 @@ function setupModalButtons(product , productId){
     const editableTable  = modalBody.querySelector("table");
     const originalObject = await getOrigianlProductData(editableTable);
     const updatedObject = getUpdatedProductObject(editableTable , originalObject);
+    console.log("productId:", productId);
+    console.log("originalObject:", originalObject);
+    console.log("updatedObject:", updatedObject);
     updateProduct(product , productId , updatedObject);
   });
 

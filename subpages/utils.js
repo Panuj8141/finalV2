@@ -28,23 +28,18 @@ const firebaseConfig = {
 }
 
 
-  const productGrid = document.querySelector(".product-grid");
-  const editBtn = document.querySelector(".edit-btn-span");
-  const saveBtn = document.querySelector(".save-btn-span");
-
-  let data ={}
-  const matchedProducts = {};
+  // const productGrid = document.querySelector(".product-grid");
+  // const editBtn = document.querySelector(".edit-btn-span");
+  // const saveBtn = document.querySelector(".save-btn-span");
+  
 export async function getDataFromDatabase(selectedArray){
   const dataRef = ref(db , 'products');
   const snapshot = await get(dataRef);
   let count = 0;
+  const matchedProducts = {};
   try{
     if(snapshot.exists()){
-      data = snapshot.val();
-
-      for( const key in matchedProducts){
-        delete matchedProducts[key];
-      }
+      const data = snapshot.val();
       
       for( const [key , value ] of Object.entries(data)){
         if(selectedArray.includes(value.name)){
@@ -52,14 +47,7 @@ export async function getDataFromDatabase(selectedArray){
           count++;
         }
       }
-      //debugg placde
-      const productIds = Object.keys(matchedProducts);
-      const duplicates = productIds.filter((id, index) => productIds.indexOf(id) !== index);
-
-      if (duplicates.length > 0) {
-        console.warn("Duplicate product IDs in matchedProducts:", duplicates);
-      }
-      //debug places
+      
       renderProductsCard(matchedProducts)
       console.log(matchedProducts); 
     }
@@ -280,13 +268,82 @@ function makeTable(product, productId, editable = false) {
   return table;
 }
 
+function setupModalButtons(product , productId){
+  const saveBtn = document.querySelector(".save-btn-span");
+  const editBtn = document.querySelector(".edit-btn-span");
+  const closeBtn = document.querySelector(".close-btn");
+
+  //replace buttons to clear old listners 
+
+  const newSaveBtn = saveBtn.cloneNode(true);
+  const newEditBtn = editBtn.cloneNode(true);
+  const newCloseBtn = closeBtn.cloneNode(true);
+
+  saveBtn.parentNode.replaceChild(newSaveBtn , saveBtn);
+  editBtn.parentNode.replaceChild(newEditBtn , editBtn);
+  closeBtn.parentNode.replaceChild(newCloseBtn , closeBtn);
+
+  const modalBody = document.querySelector("#modalBody");
+
+  newEditBtn.addEventListener('click' , ()=>{
+    document.querySelector('.message').textContent = "✏️ You are now in Edit Mode. Changes won’t be saved until you click ‘Save’.";
+    document.getElementById('editAlert').classList.add('show');
+    document.querySelector(".edit-status").style.display="block";
+    saveBtn.style.display="block";
+    editBtn.style.display="none"
+
+    modalBody.innerHTML="";
+    modalBody.appendChild(makeTable(product , productId, true));
+  });
+
+  newSaveBtn.addEventListener('click' , async ()=>{
+    document.querySelector(".edit-status").style.display="none"; 
+    saveBtn.style.display="none";
+    editBtn.style.display="block";
+
+    const editableTable  = modalBody.querySelector("table");
+    const originalObject = await getOrigianlProductData(editableTable);
+    const updatedObject = getUpdatedProductObject(editableTable , originalObject);
+    updateProduct(product , productId , updatedObject);
+  });
+
+  newCloseBtn.addEventListener('click' , ()=>{
+    document.querySelector("#modal").style.display = "none";
+    document.body.classList.remove("modal-open");
+  });
+}
+
+function openMoodalForProduct(product , productId){
+  const modal = document.querySelector("#modal");
+  const modalBody = document.querySelector("#modalBody");
+  const modalTitle = document.querySelector("#modalTitle");
+  modalTitle.textContent = product.name;
+  modalBody.innerHTML="";
+  modalBody.appendChild(makeTable(product , productId , false));
+
+  //open the modal
+
+  modal.style.display="block";
+  document.body.classList.add("modal-open");
+
+  //set up the modal buttons
+
+  setupModalButtons(product , productId);
+}
+
 function closeModal(){
   document.querySelector('.modal').style.display="none";
   document.body.classList.remove('model-open');
   document.documentElement.classList.remove('modal-open');
-  saveBtn.style.display="none";
-  editBtn.style.display="block";
-  document.querySelector(".edit-status").style.display="none";
+
+  const saveBtn = document.querySelector(".save-btn-span");
+  const editBtn = document.querySelector(".edit-btn-span");
+
+  if(saveBtn) saveBtn.style.display="none";
+  if(editBtn) editBtn.style.display="block";
+
+  const editStatus = document.querySelector(".edit-status");
+  if(editStatus) editStatus.style.display="none";
 }
 
 
@@ -343,53 +400,59 @@ function closeModal(){
       const h3 = document.createElement("h3")
       h3.textContent=product.name;
 
+      card.append(imageWrapper);
+      card.append(h3);
+
       card.addEventListener('click' , ()=>{
-        const modal  = document.querySelector("#modal");
-        const modalBody = document.querySelector("#modalBody")
-        const modalTitle = document.querySelector("#modalTitle");
-        modalTitle.textContent=product.name;
+        openMoodalForProduct(product , productId);
+      })
 
-        saveBtn.addEventListener('click' , async (event)=>{
-          document.querySelector(".edit-status").style.display="none"; 
-          saveBtn.style.display="none";
-          editBtn.style.display="block";
+      // card.addEventListener('click' , ()=>{
+      //   const modal  = document.querySelector("#modal");
+      //   const modalBody = document.querySelector("#modalBody")
+      //   const modalTitle = document.querySelector("#modalTitle");
+      //   modalTitle.textContent=product.name;
 
-          const editableTable  = modalBody.querySelector("table");
-          const originalObject = await getOrigianlProductData(editableTable);
-          const updatedObject = getUpdatedProductObject(editableTable , originalObject);
-          updateProduct(product , productId , updatedObject);
+      //   saveBtn.addEventListener('click' , async (event)=>{
+      //     document.querySelector(".edit-status").style.display="none"; 
+      //     saveBtn.style.display="none";
+      //     editBtn.style.display="block";
+
+      //     const editableTable  = modalBody.querySelector("table");
+      //     const originalObject = await getOrigianlProductData(editableTable);
+      //     const updatedObject = getUpdatedProductObject(editableTable , originalObject);
+      //     updateProduct(product , productId , updatedObject);
 
 
-          // modalBody.innerHTML="";
-          // modalBody.appendChild(makeTable(updatedObject , productId , false));
+      //     // modalBody.innerHTML="";
+      //     // modalBody.appendChild(makeTable(updatedObject , productId , false));
           
           
           
 
-        })
-        document.querySelector(".edit-btn-span").addEventListener('click' , ()=>{
-          document.querySelector('.message').textContent = "✏️ You are now in Edit Mode. Changes won’t be saved until you click ‘Save’.";
-          document.getElementById('editAlert').classList.add('show');
-          document.querySelector(".edit-status").style.display="block";
-          saveBtn.style.display="block";
-          editBtn.style.display="none"
-          modalBody.innerHTML="";
-          modalBody.appendChild(makeTable(product , productId, true));
-        })
+      //   })
+      //   document.querySelector(".edit-btn-span").addEventListener('click' , ()=>{
+      //     document.querySelector('.message').textContent = "✏️ You are now in Edit Mode. Changes won’t be saved until you click ‘Save’.";
+      //     document.getElementById('editAlert').classList.add('show');
+      //     document.querySelector(".edit-status").style.display="block";
+      //     saveBtn.style.display="block";
+      //     editBtn.style.display="none"
+      //     modalBody.innerHTML="";
+      //     modalBody.appendChild(makeTable(product , productId, true));
+      //   })
 
 
-        document.querySelector(".close-btn").addEventListener('click' , closeModal);
+      //   document.querySelector(".close-btn").addEventListener('click' , closeModal);
 
-        modal.style.display="block";
-        modalBody.innerHTML=""
-        modalBody.appendChild(makeTable(product , productId , false));
-        document.body.classList.add("modal-open");
+      //   modal.style.display="block";
+      //   modalBody.innerHTML=""
+      //   modalBody.appendChild(makeTable(product , productId , false));
+      //   document.body.classList.add("modal-open");
 
         
-      });
+      // });
 
-      card.append(imageWrapper);
-      card.append(h3)
+      
 
       
       if(isHomePage){

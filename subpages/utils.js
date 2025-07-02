@@ -32,7 +32,7 @@ const firebaseConfig = {
   // const editBtn = document.querySelector(".edit-btn-span");
   // const saveBtn = document.querySelector(".save-btn-span");
   
-  const matchedProducts = {};
+  let matchedProducts = {};
 export async function getDataFromDatabase(selectedArray){
   const dataRef = ref(db , 'products');
   const snapshot = await get(dataRef);
